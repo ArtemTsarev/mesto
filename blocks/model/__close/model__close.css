@@ -1,0 +1,18 @@
+.model__close{
+    position: absolute;
+    display: block;
+    border: none;
+    width: 50px;
+    height: 38px;
+    top: -50px;
+    right: -78px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 505px){
+    .model__close{
+        top: -60px;
+        right: 1px;
+    }
+}

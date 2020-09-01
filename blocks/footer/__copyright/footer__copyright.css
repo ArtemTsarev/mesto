@@ -1,0 +1,38 @@
+.footer__copyright{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: #545454;
+    margin: 0;
+    
+}
+
+@media screen and (max-width: 910px){
+    .footer__copyright{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .footer__copyright{
+        margin-left: 60px;
+        margin-bottom: 36px;
+        margin-top: 48px;
+        font-size: 16px;
+        line-height: 19px;
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer__copyright{
+        margin-left: 16px;
+        margin-bottom: 36px;
+        margin-top: 48px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+}

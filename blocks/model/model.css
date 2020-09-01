@@ -1,0 +1,33 @@
+@import url("./__close/model__close.css");
+@import url("./__complete/model__complete.css");
+@import url("./__copyright/model__copyright.css");
+@import url("./__title/model__title.css");
+@import url("./__username/model__username.css");
+@import url("./__content/model__content.css");
+
+.model{
+    max-width: 430px;
+    /* padding: 36px 0 36px 36px; */
+    background-color: #fff;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    border-radius: 10px;
+}
+
+.model-hide{
+    display: none;
+}
+
+.model-visiable{
+    display: block;
+}
+
+@media screen and (max-width: 505px){
+    .model{
+        min-width: 100%;
+    }
+}

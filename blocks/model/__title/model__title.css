@@ -1,0 +1,17 @@
+.model__title{
+    margin-bottom: 54px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 358px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+}
+
+@media screen and (max-width: 505px){
+    .model__title{
+        width: 100%;
+    }
+}

@@ -1,0 +1,22 @@
+@import url("./__image/elemnt__image.css");
+@import url("./__info-image/element__info-image.css");
+@import url("./__info/element__info.css");
+@import url("./__title/element__title.css");
+
+.element{
+    max-width: 282px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1279px) and (min-width: 321px){
+    .element{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 610px){
+    .element{
+       width: 100%;
+    }
+}

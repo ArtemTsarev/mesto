@@ -1,0 +1,13 @@
+.model__content{
+    position: relative;
+    width: 358px;
+    margin: 0 auto;
+    height: 100%;
+    padding-bottom: 36px;
+}
+
+@media screen and (max-width: 505px){
+    .model__content{
+        width: 80%;
+    }
+}

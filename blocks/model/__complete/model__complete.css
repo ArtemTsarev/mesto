@@ -1,0 +1,23 @@
+.model__complete{
+    width: 358px;
+    height: 50.15px;
+    margin: 0 auto;
+    border-radius: 2px;
+    display: block;
+    margin-top: 48px;
+    background-color: #000;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.model__complete:hover{
+    opacity: .6;
+    transition: 1.5s;
+}
+
+@media screen and (max-width: 505px){
+    .model__complete{
+        width: 100%;
+    }
+}

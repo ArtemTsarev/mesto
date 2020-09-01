@@ -1,0 +1,15 @@
+.element__info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 246px;
+    margin: auto;
+    align-content: center;
+    height: max-content;
+}
+
+@media screen and (max-width: 925px){
+    .element__info{
+        width: 80%;
+    }
+}

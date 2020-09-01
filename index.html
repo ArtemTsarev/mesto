@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mesto</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body class = "page">
+    <header class="header">
+        <img src="./images/logo.svg" alt="логотип" class="header__logo">
+    </header>
+
+    <main class="main">
+        <section class="profile">
+
+            <div class="profile__avatar">
+                <img src="./images/image.svg" alt="картинка" class = "profile__image">
+            </div>
+
+            <div class="profile__info">
+                <h2 class="profile__title">Жак-Ив Кусто</h2>
+                <button class="profile__edit-button" onclick="edit_profile()"></button>
+                <p class="profile__subtitle">Исследователь океана</p>
+            </div>
+
+            <button class="profile__add-button"></button>
+
+        </section>
+
+        <section class="elements">
+            <div class="element">
+                <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="картинка" class="element__image">
+                <div class="element__info">
+                    <h3 class="elemnt__title">Карачаевск</h3>
+                    <img src="./images/Vector.svg" alt="картинка" class="element__info-image">
+                </div>
+            </div>
+            <div class="element">
+                <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="картинка" class="element__image">
+                <div class="element__info">
+                    <h3 class="elemnt__title">Гора Эльбрус</h3>
+                    <img src="./images/Vector.svg" alt="картинка" class="element__info-image">
+                </div>
+            </div>
+            <div class="element">
+                <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="картнка" class="element__image">
+                <div class="element__info">
+                    <h3 class="elemnt__title">Домбай</h3>
+                    <img src="./images/Vector.svg" alt="картинка" class="element__info-image">
+                </div>
+            </div>
+            <div class="element">
+                <img src="./images/kirill-pershin-1404681-unsplash.jpg" alt="картинка" class="element__image">
+                <div class="element__info">
+                    <h3 class="elemnt__title">Гора Эльбрус</h3>
+                    <img src="./images/Vector.svg" alt="картинка" class="element__info-image">
+                </div>
+            </div>
+            <div class="element">
+                <img src="./images/kirill-pershin-1556355-unsplash.jpg" alt="картинка" class="element__image">
+                <div class="element__info">
+                    <h3 class="elemnt__title">Домбай</h3>
+                    <img src="./images/Vector.svg" alt="картинка" class="element__info-image">
+                </div>
+            </div>
+            <div class="element">
+                <img src="./images/kirill-pershin-1088404-unsplash.jpg" alt="картинка" class="element__image">
+                <div class="element__info">
+                    <h3 class="elemnt__title">Карачаево-Ч...</h3>
+                    <img src="./images/Vector.svg" alt="картинка" class="element__info-image">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="footer__copyright">© 2020 Mesto Russia</p>
+    </footer>
+
+    <section class="model">
+        <div class="model__content">
+            <h2 class="model__title">Редактировать профиль</h2>
+            <input type="text" class="model__username" placeholder = "Жак-Ив Кусто" value = "Жак-Ив Кусто" oninput="edit_username()">
+            <input type="text" class="model__copyright" placeholder = "Исследователь океана" value = "Исследователь океана">
+            <button class="model__complete" onclick="complete()">Сохранить</button>
+            <img src="./images/Close-icon3.svg" alt="отменить" class="model__close" onclick="model_hide()">
+        </div>
+    </section>
+    
+    <script src = "./script.js"></script>
+</body>
+</html>
