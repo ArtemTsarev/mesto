@@ -1,13 +1,6 @@
-.model__copyright{
-    display: block;
-    margin: 0 auto;
-    width: 358px;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    padding-bottom: 13px;
-    border-bottom: 1px solid gray;
-}
+/* .model__copyright{
+    
+} */
 
 .model__copyright::placeholder{
     font-family: Inter;

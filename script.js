@@ -7,16 +7,20 @@ let model_close = model.querySelector(".model__close");
 let username = model.querySelector(".model__username");
 let usercopyright = model.querySelector(".model__copyright");
 let complete_btn = model.querySelector(".model__complete");
-let newName;
-let newCopyright;
 
 
+username.setAttribute("value", "Жак-Ив Кусто");
+usercopyright.setAttribute("value", "Исследователь океана");
 model.classList.add("model-hide");
+profile_edit.addEventListener("click", edit_profile);
+complete_btn.addEventListener("click", complete);
+model_close.addEventListener("click", model_hide);
 
 function edit_profile(){
     model.classList.remove("model-hide");
-    model.classList("model-visiable");
+    model.classList.add("model-visiable");
 }
+
 
 function model_hide(){
     model.classList.remove("model-visiable");
@@ -24,10 +28,8 @@ function model_hide(){
 }
 
 function complete(){
-    newName = username.value;
-    name.textContent = newName;
-    newCopyright = usercopyright.value;
-    copyright.textContent = newCopyright;
+    name.textContent = username.value;
+    copyright.textContent = usercopyright.value;
     model.classList.remove("model-visiable");
     model.classList.add("model-hide");
 }

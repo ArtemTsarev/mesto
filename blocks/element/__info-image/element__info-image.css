@@ -1,3 +1,14 @@
+.element__info-image{
+    background: url(../../../images/Vector.svg);
+    background-repeat: no-repeat;
+    width: 21px;
+    height: 18.13px;
+    border: none;
+    outline: none;
+}
+
 .element__info-image:hover{
     cursor: pointer;
+    outline: none;
+    border: none;
 }

@@ -1,0 +1,10 @@
+.input-place{
+    display: block;
+    width: 358px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 13px;
+    border-bottom: 1px solid gray;
+}
+
