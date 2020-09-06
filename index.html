@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -15,10 +15,8 @@
 
     <main class="main">
         <section class="profile">
-
-            <div class="profile__avatar">
-                <img src="./images/image.svg" alt="картинка" class = "profile__image">
-            </div>
+  
+                <img src="./images/image.svg" alt="картинка" class = "profile__avatar">
 
             <div class="profile__info">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
@@ -81,15 +79,19 @@
     </footer>
 
     <section class="model">
-        <div class="model__content">
-            <h2 class="model__title">Редактировать профиль</h2>
-            <input type="text" class="input-place model__username" value="">
-            <input type="text" class="input-place model__copyright" value="">
-            <button class="model__complete">Сохранить</button>
-            <img src="./images/Close-icon3.svg" alt="отменить" class="model__close">
-        </div>
+        <form class="formElement">
+            <div class="model__content">
+                <h2 class="model__title">Редактировать профиль</h2>
+                <input type="text" class="input-place model__username" value=""></class=>
+                <input type="text" class="input-place model__copyright" value="">
+                <button type = "submit" class="model__complete" value = "Сохранить">Сохранить</button>
+                <img src="./images/Close-icon3.svg" alt="отменить" class="model__close">
+            </div>
+        </form>
     </section>
     
-    <script src = "./script.js"></script>
+    
+    
+    <script src = "./main.js"></script>
 </body>
 </html>

@@ -1,9 +1,14 @@
 .profile__avatar{
-    width: 168.75px;
-    height: 127.5px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
+    background-repeat: no-repeat;
+    background-attachment: top left;
+    padding: 3.75px 26.25px 3.75px 22.5px;
 }
 
 @media screen and (max-width: 925px){

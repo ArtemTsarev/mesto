@@ -16,12 +16,16 @@
     top: 50%;
     transform: translate(0, -50%);
     border-radius: 10px;
+}
+
+.model-hide{
     display: none;
 }
 
-.model-visiable{
+.model-block{
     display: block;
 }
+
 
 @media screen and (max-width: 505px){
     .model{
