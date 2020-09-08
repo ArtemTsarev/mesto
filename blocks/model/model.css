@@ -4,7 +4,6 @@
 @import url("./__title/model__title.css");
 @import url("./__username/model__username.css");
 @import url("./__content/model__content.css");
-@import url("./__status/status.css");
 
 .model{
     max-width: 430px;
