@@ -16,11 +16,11 @@ let modelClose = document.querySelector(".form__close");
 
 
 function modelHide(){
-    model.classList.remove("model_visiable");
+    model.classList.remove("model_status_visiable");
 }
 
 function editProfile(){
-    model.classList.add("model_visiable");
+    model.classList.add("model_status_visiable");
 //    model.style.display = "block";
     nameInput.value = profileName.textContent;
     jobInput.value = profileCopyright.textContent;
