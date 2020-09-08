@@ -1,41 +1,41 @@
 let profile = document.querySelector(".profile");
-let profile_name = profile.querySelector(".profile__title");
-let profile_copyright = profile.querySelector(".profile__subtitle");
-let formElement = document.querySelector(".form__element");
+let profileName = profile.querySelector(".profile__title");
+let profileCopyright = profile.querySelector(".profile__subtitle");
+let formElement = document.querySelector(".form");
 // О том, как это делать, расскажем позже.
-let profileEdit_btn = profile.querySelector(".profile__edit-button");
+let profileEditBtn = profile.querySelector(".profile__edit-button");
 let model = document.querySelector(".model");
 // Находим поля формы в DOM
-let nameInput = model.querySelector(".model__username");
-let jobInput = model.querySelector(".model__copyright");
-let modelClose = document.querySelector(".model__close");
+let nameInput = model.querySelector(".form__username");
+let jobInput = model.querySelector(".form__copyright");
+let modelClose = document.querySelector(".form__close");
 
-model.classList.add("model-hide");
 // Выберите элементы, куда должны быть вставлены значения полей
 // Обработчик «отправки» формы, хотя пока
 // она никуда отправляться не будет
 
 
-function edit_profile(){
-    model.classList.add("model-block");
-    nameInput.value = profile_name.textContent;
-    jobInput.value = profile_copyright.textContent;
+function modelHide(){
+    model.classList.remove("model_visiable");
 }
 
-function model_hide(){
-    model.classList.remove("model-block");
+function editProfile(){
+    model.classList.add("model_visiable");
+//    model.style.display = "block";
+    nameInput.value = profileName.textContent;
+    jobInput.value = profileCopyright.textContent;
 }
 
 function end(submitEvent){
     submitEvent.preventDefault();
-    model.classList.remove("model-block");
-    profile_name.textContent = nameInput.value;
-    profile_copyright.textContent = jobInput.value;
+    profileName.textContent = nameInput.value;
+    profileCopyright.textContent = jobInput.value;
+    modelHide();
 }
 
 // Прикрепляем обработчик к форме:
 // он будет следить за событием “submit” - «отправка»
-profileEdit_btn.addEventListener("click", edit_profile);
-modelClose.addEventListener("click", model_hide);
+profileEditBtn.addEventListener("click", editProfile);
+modelClose.addEventListener("click", modelHide);
 formElement.addEventListener("submit", end);
  

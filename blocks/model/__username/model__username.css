@@ -1,6 +1,6 @@
-.model__username{margin: 0 0 30px 0;}
+.form__username{margin: 0 0 30px 0;}
 
-.model__username::placeholder{
+.form__username::placeholder{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -10,7 +10,7 @@
 }
 
 @media screen and (max-width: 505px){
-    .model__username{
+    .form__username{
         width: 100%;
     }
 }

@@ -1,4 +1,4 @@
-.model__complete{
+.form__complete{
     width: 358px;
     height: 50.15px;
     margin: 0 auto;
@@ -11,13 +11,13 @@
     cursor: pointer;
 }
 
-.model__complete:hover{
+.form__complete:hover{
     opacity: .6;
     transition: 1.5s;
 }
 
 @media screen and (max-width: 505px){
-    .model__complete{
+    .form__complete{
         width: 100%;
     }
 }

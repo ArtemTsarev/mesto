@@ -55,7 +55,7 @@ function formSubmitHandler (evt) {
             name.textContent = username.value;
             copyright.textContent = usercopyright.value;
             evt.preventSubmitHandler();
-             modelHide();
+            modelHide();
         }
     
     

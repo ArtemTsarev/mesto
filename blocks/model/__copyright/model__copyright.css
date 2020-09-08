@@ -2,7 +2,7 @@
     
 } */
 
-.model__copyright::placeholder{
+.form__copyright::placeholder{
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 505px){
-    .model__copyright{
+    .form__copyright{
         width: 90%;
     }
 }

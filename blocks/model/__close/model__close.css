@@ -1,18 +1,23 @@
-.model__close{
+.form__close{
     position: absolute;
     display: block;
     border: none;
-    width: 50px;
-    height: 38px;
-    top: -50px;
-    right: -78px;
-    background-repeat: no-repeat;
+    width: 40.7px;
+    height: 40.7px;
+    top: -65px;
+    right: -60px;
     cursor: pointer;
+    background: none;
+    outline: none;
+}
+
+.form__close:hover{
+    opacity: .6;
 }
 
 @media screen and (max-width: 505px){
-    .model__close{
-        top: -60px;
+    .form__close{
+        top: -80px;
         right: 1px;
     }
 }

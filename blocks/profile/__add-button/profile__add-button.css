@@ -2,10 +2,15 @@
     width: 150px;
     height: 50px;
     border: none;
-    background: url("../../../images/Add-Button.svg");
+    background: url("../../../images/plus.svg");
     cursor: pointer;
     justify-self: flex-end;
+    box-sizing: border-box;
+    background-position: center;
+    border: 2px solid #fff;
     background-repeat: no-repeat;
+    outline: none;
+    border-radius: 2px;
 }
 
 .profile__add-button:hover{
@@ -16,7 +21,6 @@
 @media screen and (max-width: 925px){
     .profile__add-button{
         width: 282px;
-        background: url("../../../images/Add-Button2.png");
         margin: 0 auto;
     }
 }
@@ -25,6 +29,4 @@
     .profile__add-button{
         width: 282px;
         height: 50px;
-        background: url("../../../images/Add-Button2.png");
-    }
 }
