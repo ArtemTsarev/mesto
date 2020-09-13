@@ -1,0 +1,32 @@
+.model__input {
+    display: block;
+    width: 358px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    padding-bottom: 13px;
+    border-bottom: 1px solid gray;
+}
+
+
+.model__input::placeholder{
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000;
+}
+
+
+@media screen and (max-width: 505px){
+    .model__input{
+        width: 100%;
+    } 
+}
+
+@media screen and (max-width: 1024px){
+.model__input {
+    max-width: 100%;
+    }
+}

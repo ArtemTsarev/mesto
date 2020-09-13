@@ -3,7 +3,7 @@
     margin-left: auto;
     margin-right: auto;
     width: 358px;
-    font-family: Inter;
+    font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -18,7 +18,6 @@
 
 @media screen and (max-width: 320px){
     .model__title{
-        font-family: Inter;
         font-style: normal;
         font-weight: 900;
         font-size: 18px;

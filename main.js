@@ -6,8 +6,8 @@ let formElement = document.querySelector(".form");
 let profileEditBtn = profile.querySelector(".profile__edit-button");
 let model = document.querySelector(".model");
 // Находим поля формы в DOM
-let nameInput = model.querySelector(".form__username");
-let jobInput = model.querySelector(".form__copyright");
+let nameInput = model.querySelector(".model__input_type_username");
+let jobInput = model.querySelector(".model__input_type_copyright");
 let modelClose = document.querySelector(".form__close");
 
 // Выберите элементы, куда должны быть вставлены значения полей
