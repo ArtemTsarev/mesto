@@ -9,4 +9,5 @@
 @import url("../blocks/model/model.css");
 @import url("../blocks/input-place/input-place.css");
 @import url("../blocks/model/__status/status.css");
+@import url("../blocks/content/_type/_dark/content_type_dark.css");
 @import url("../blocks/model/_type/model__input_type.css");

@@ -10,6 +10,8 @@
 </head>
 
 <body class="page">
+
+<div class="content">
     <header class="header">
         <img src="./images/logo.svg" alt="логотип" class="header__logo">
     </header>
@@ -25,7 +27,7 @@
                 <p class="profile__subtitle">Исследователь океана</p>
             </div>
 
-            <button class="profile__add-button"></button>
+            <button class="profile__add-button" type = "button"></button>
 
         </section>
 
@@ -79,13 +81,14 @@
     <footer class="footer">
         <p class="footer__copyright">© 2020 Mesto Russia</p>
     </footer>
+</div>
 
     <section class="model">
         <form class="form" name = "information">
             <div class="model__content">
                 <h2 class="model__title">Редактировать профиль</h2>
-                <input type="text" class="model__input model__input_type_username" value="">
-                <input type="text" class="model__input model__input_type_copyright" value="">
+                <input type="text" class="model__input model__input_type_username" value="" name="имя">
+                <input type="text" class="model__input model__input_type_copyright" value="" nmae = "описание">
                 <button type="submit" class="form__complete" value="Сохранить">Сохранить</button>
                 <button class="form__close" type="button"><img src="./images/Close-icon3.svg" alt="закрыть"></button>
             </div>

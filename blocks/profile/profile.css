@@ -22,10 +22,9 @@
 }
 
 @media screen and (max-width: 925px){
-    .profile{
-        
+    .profile{      
         grid-template-columns: 1fr;
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: 1fr 1fr 1fr;
     }
 }
 

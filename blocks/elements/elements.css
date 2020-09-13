@@ -26,3 +26,9 @@
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
+@media screen and (max-width: 320px){
+    .elements{
+        margin-top: 10px;
+    }
+}
